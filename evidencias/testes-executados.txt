@@ -1,0 +1,27 @@
+APROVADO: Venda com vírgula => 600.50
+APROVADO: Venda com ponto => 600.50
+APROVADO: Sem desconto abaixo do limite => 400.00
+APROVADO: Sem desconto no limite => 500.00
+APROVADO: Desconto de dez por cento => 540.00
+APROVADO: Primeiro centavo acima do limite => 450.01
+APROVADO: Desconto zero => 600.00
+APROVADO: Desconto integral => 0.00
+APROVADO: Percentual decimal e arredondamento => 537.01
+APROVADO: Venda inválida: []
+APROVADO: Venda inválida: [abc]
+APROVADO: Venda inválida: [-1]
+APROVADO: Venda inválida: [0]
+APROVADO: Venda inválida: [1.000,00]
+APROVADO: Venda inválida: [12,345]
+APROVADO: Venda inválida: [NaN]
+APROVADO: Desconto inválido: []
+APROVADO: Desconto inválido: [abc]
+APROVADO: Desconto inválido: [-1]
+APROVADO: Desconto inválido: [100.01]
+APROVADO: Desconto inválido: [10%]
+APROVADO: Interface apresenta total 400,00
+APROVADO: Interface apresenta total 500,00
+APROVADO: Interface apresenta total 540,00
+APROVADO: Interface rejeita venda não numérica
+APROVADO: Desconto inválido permite corrigir; cancelar encerra sem resultado
+TOTAL: 26 verificações aprovadas.

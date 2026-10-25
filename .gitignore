@@ -1,0 +1,24 @@
+# Compilação e pacotes locais
+/target/
+/dist/
+*.class
+*.jar
+*.zip
+*.rar
+*.7z
+
+# Configurações locais das IDEs
+/nbproject/private/
+/.idea/
+/.vscode/
+*.iml
+
+# Temporários e configurações privadas
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
